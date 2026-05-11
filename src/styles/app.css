@@ -1,0 +1,65 @@
+.app {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  position: relative;
+  overflow: hidden;
+}
+
+.main-content {
+  flex: 1;
+  padding: 0 0 80px 0;
+  overflow-y: auto;
+}
+
+.bg-particles {
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  z-index: 0;
+}
+
+.particle {
+  position: absolute;
+  border-radius: 50%;
+  filter: blur(60px);
+  opacity: 0.15;
+  animation: float 6s ease-in-out infinite;
+}
+
+.particle-1 {
+  width: 300px; height: 300px;
+  background: #2AABEE;
+  top: -100px; left: -100px;
+  animation-delay: 0s;
+}
+.particle-2 {
+  width: 200px; height: 200px;
+  background: #7B61FF;
+  top: 30%; right: -80px;
+  animation-delay: 1s;
+}
+.particle-3 {
+  width: 250px; height: 250px;
+  background: #00D4FF;
+  bottom: 20%; left: 20%;
+  animation-delay: 2s;
+}
+.particle-4 {
+  width: 150px; height: 150px;
+  background: #2AABEE;
+  bottom: -50px; right: 30%;
+  animation-delay: 3s;
+}
+.particle-5 {
+  width: 180px; height: 180px;
+  background: #7B61FF;
+  top: 50%; left: -60px;
+  animation-delay: 1.5s;
+}
+.particle-6 {
+  width: 120px; height: 120px;
+  background: #00D4FF;
+  top: 10%; right: 20%;
+  animation-delay: 2.5s;
+}
